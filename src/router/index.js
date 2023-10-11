@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Main from '../views/Main.vue'
+import Manage from '../views/Manage.vue'
 
 
 
@@ -10,6 +11,11 @@ const routes = [
     path: '/',
     name: 'main',
     component: 'Main'
+  },
+  {
+    path: '/manage',
+    name: 'manage',
+    component: 'Manage'
   },
   {
     path: '/about',
