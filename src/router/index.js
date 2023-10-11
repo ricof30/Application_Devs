@@ -1,10 +1,16 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import Main from '../views/Main.vue'
+
 
 
 
 
 const routes = [
-// dito mo ilagay ung routes sa baba neto tapos pabura nong comment hehehe
+  {
+    path: '/',
+    name: 'main',
+    component: 'Main'
+  },
   {
     path: '/about',
     name: 'about',
